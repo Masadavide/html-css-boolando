@@ -47,12 +47,35 @@ span{
 .cuore{
     position: absolute;
     top: 20px;
-    right: 0px;
+    right: 0;
     width: 40px;
-    height: 40px;
     background-color: white;
     font-size: 25px;
     text-align: center;
+    vertical-align: middle;
     line-height: 40px;
 }
 
+.marker{
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.sconto{
+    float: left;
+    background-color: red;
+    vertical-align: middle;
+    padding: 0 5px;
+    margin-right: 2px;
+}
+
+.green{
+    float: left;
+    background-color: teal;
+    padding: 0 5px;
+}
