@@ -88,7 +88,7 @@ span{
     display: none;
 }
 
- .container:hover .hover{
+.container:hover .hover{
     display: block;
 }
 
