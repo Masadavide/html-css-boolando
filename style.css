@@ -44,4 +44,15 @@ span{
     text-decoration: line-through;
 }
 
+.cuore{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+}
 
