@@ -9,13 +9,13 @@ main{
 }
 
 .container{
-    margin-top: 2%;
+    margin: 2% 0;
     width: 32%;
     position: relative;
     float: left; 
 }
 
-img, .text-prodotto{
+img, .text{
     width: 100%;  
 }
 
@@ -78,4 +78,20 @@ span{
     float: left;
     background-color: teal;
     padding: 0 5px;
+}
+
+.immagine{
+    display: block;
+}
+
+.hover{
+    display: none;
+}
+
+ .container:hover .hover{
+    display: block;
+}
+
+.container:hover .immagine{
+    display: none;
 }
