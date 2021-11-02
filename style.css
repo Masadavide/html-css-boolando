@@ -5,20 +5,43 @@
 }
 
 main{
-    margin: 1% 20%;
+    margin: 0% 20%;
 }
 
 .container{
+    margin-top: 2%;
     width: 32%;
     position: relative;
-    display: inline-block;
-}
-
-img{
-    width: 100%;
     float: left; 
 }
 
-.centro{
-    margin: 0 1%;
+img, .text-prodotto{
+    width: 100%;  
 }
+
+.centro{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+p{
+    font-size: 12px;
+    color: red;
+}
+
+.titolo{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.marca{
+    color: black;
+}
+
+span{
+    color: black;
+    text-decoration: line-through;
+}
+
+
