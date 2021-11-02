@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    margin: 1% 20%;
+}
+
+.container{
+    width: 30%;
+    position: relative;
+    float: left;
+
+}
+
+img{
+    width: 100%;
+   
+}
+
+
+
+.sinistra{
+    margin-right: 3.3%;
+
+}
+
+.destra{
+    margin-left: 3.3%;
+}
