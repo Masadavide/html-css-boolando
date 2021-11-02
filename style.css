@@ -19,10 +19,6 @@ img{
     float: left; 
 }
 
-.sinistra{
-    margin-right: 1%;
-}
-
-.destra{
-    margin-left: 1%;
+.centro{
+    margin: 0 1%;
 }
